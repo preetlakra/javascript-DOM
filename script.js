@@ -1,11 +1,39 @@
-// DOM manipulation 
-const btn = document.querySelector("button");
+// arrow function
 
-function random(number) {
-  return Math.floor(Math.random() * (number + 1));
+
+// const add = (x,y) => {
+//   return x+y;
+
+// }
+
+// console.log(add(5,6))
+
+
+// const sub = function(x,y) {
+//    return x+y;
+// }
+    
+
+// let myArray = [10, 20, 30, 40, 50];
+
+// if(myArray.includes(30)){
+//   console.log("found it ")
+// }
+// else{
+//   console.log("not found!")
+// }
+
+
+ 
+function foo(bar){
+  console.log("i am foo")
+  bar();
+
 }
 
-btn.addEventListener("click", () => {
-  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
-  document.body.style.backgroundColor = rndCol;
-});
+
+
+
+
+
+
