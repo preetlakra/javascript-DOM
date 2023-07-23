@@ -18,16 +18,15 @@
     
     <script>
 
-        const button = document.getElementById("button")
-        const container = document.getElementById("container")
+        
 
-    
 
-        button.addEventListener("click", () => {
-            const el = document.createElement("h1");
-            el.innerHTML = "Preet Lakra";
-            container.appendchild(el);
-        });
+
+        let resutFromServer = fetch(
+            "https://jsonplaceholder.typicode.com/posts";
+        )
+
+        console.log(resutFromServer);
 
     </script>
 </body>
