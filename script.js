@@ -24,12 +24,41 @@
 // }
 
 
- 
-function foo(bar){
-  console.log("i am foo")
-  bar();
+console.log("this");
 
+
+function loadingDate(callback){
+  setTimeout(() => {
+    console.log("loading dat ")
+  }, 3000);
+  
+  
 }
+
+function approvingData() {
+  setTimeout(() => {
+    console.log("approvingData...")
+  }, 1000);
+  
+}
+
+function showingData(){
+  setTimeout(() => {
+    console.log("loading dat ")
+  }, 4000);
+  
+  
+}
+
+//promise
+
+
+//fetch api
+
+
+
+
+
 
 
 
