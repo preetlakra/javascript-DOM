@@ -10,13 +10,24 @@
 
     <p>This site is just for fun</p>
 
+    <div id="container">
+
+    </div>
+
     <button id="button">Click Me</button>
     
     <script>
 
-        const btn = document.getElementById("button")
+        const button = document.getElementById("button")
+        const container = document.getElementById("container")
 
-        
+    
+
+        button.addEventListener("click", () => {
+            const el = document.createElement("h1");
+            el.innerHTML = "Preet Lakra";
+            container.appendchild(el);
+        });
 
     </script>
 </body>
